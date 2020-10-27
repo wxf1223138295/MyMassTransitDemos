@@ -1,0 +1,81 @@
+﻿{
+  "version": "1.0.0",
+  "restore": {
+    "projectUniqueName": "/Users/wangxiaofeng/masstransittest/MyGitMass/MyMassTransitDemos/MyMasstransit/MyMasstransitOne/MyMasstransitOne.csproj",
+    "projectName": "MyMasstransitOne",
+    "projectPath": "/Users/wangxiaofeng/masstransittest/MyGitMass/MyMassTransitDemos/MyMasstransit/MyMasstransitOne/MyMasstransitOne.csproj",
+    "outputPath": "/Users/wangxiaofeng/masstransittest/MyGitMass/MyMassTransitDemos/MyMasstransit/MyMasstransitOne/obj/",
+    "projectStyle": "PackageReference",
+    "fallbackFolders": [
+      "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+    ],
+    "originalTargetFrameworks": [
+      "netcoreapp3.1"
+    ],
+    "sources": {
+      "https://api.nuget.org/v3/index.json": {}
+    },
+    "frameworks": {
+      "netcoreapp3.1": {
+        "projectReferences": {
+          "/Users/wangxiaofeng/masstransittest/MyGitMass/MyMassTransitDemos/MyMasstransit/MyMasstransit.Components/MyMasstransit.Components.csproj": {
+            "projectPath": "/Users/wangxiaofeng/masstransittest/MyGitMass/MyMassTransitDemos/MyMasstransit/MyMasstransit.Components/MyMasstransit.Components.csproj"
+          },
+          "/Users/wangxiaofeng/masstransittest/MyGitMass/MyMassTransitDemos/MyMasstransit/MyMasstransit.Contract/MyMasstransit.Contract.csproj": {
+            "projectPath": "/Users/wangxiaofeng/masstransittest/MyGitMass/MyMassTransitDemos/MyMasstransit/MyMasstransit.Contract/MyMasstransit.Contract.csproj"
+          }
+        }
+      }
+    },
+    "warningProperties": {
+      "warnAsError": [
+        "NU1605"
+      ]
+    }
+  },
+  "frameworks": {
+    "netcoreapp3.1": {
+      "dependencies": {
+        "MassTransit": {
+          "target": "Package",
+          "version": "[7.0.5-develop.2964, )"
+        },
+        "MassTransit.Analyzers": {
+          "target": "Package",
+          "version": "[7.0.5-develop.2965, )"
+        },
+        "MassTransit.AspNetCore": {
+          "target": "Package",
+          "version": "[7.0.5-develop.2964, )"
+        },
+        "MassTransit.Extensions.DependencyInjection": {
+          "target": "Package",
+          "version": "[7.0.5-develop.2964, )"
+        },
+        "MassTransit.RabbitMQ": {
+          "target": "Package",
+          "version": "[7.0.5-develop.2964, )"
+        }
+      },
+      "imports": [
+        "net461",
+        "net462",
+        "net47",
+        "net471",
+        "net472",
+        "net48"
+      ],
+      "assetTargetFallback": true,
+      "warn": true,
+      "frameworkReferences": {
+        "Microsoft.AspNetCore.App": {
+          "privateAssets": "none"
+        },
+        "Microsoft.NETCore.App": {
+          "privateAssets": "all"
+        }
+      },
+      "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.1.202/RuntimeIdentifierGraph.json"
+    }
+  }
+}

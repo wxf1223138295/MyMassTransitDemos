@@ -1,0 +1,12 @@
+/Users/wangxiaofeng/masstransittest/MyMasstransit/MyMasstransit.Components/bin/Debug/netstandard2.0/MyMasstransit.Components.deps.json
+/Users/wangxiaofeng/masstransittest/MyMasstransit/MyMasstransit.Components/bin/Debug/netstandard2.0/MyMasstransit.Components.dll
+/Users/wangxiaofeng/masstransittest/MyMasstransit/MyMasstransit.Components/bin/Debug/netstandard2.0/MyMasstransit.Components.pdb
+/Users/wangxiaofeng/masstransittest/MyMasstransit/MyMasstransit.Components/bin/Debug/netstandard2.0/MyMasstransit.Contract.dll
+/Users/wangxiaofeng/masstransittest/MyMasstransit/MyMasstransit.Components/bin/Debug/netstandard2.0/MyMasstransit.Contract.pdb
+/Users/wangxiaofeng/masstransittest/MyMasstransit/MyMasstransit.Components/obj/Debug/netstandard2.0/MyMasstransit.Components.csprojAssemblyReference.cache
+/Users/wangxiaofeng/masstransittest/MyMasstransit/MyMasstransit.Components/obj/Debug/netstandard2.0/MyMasstransit.Components.csproj.CoreCompileInputs.cache
+/Users/wangxiaofeng/masstransittest/MyMasstransit/MyMasstransit.Components/obj/Debug/netstandard2.0/MyMasstransit.Components.AssemblyInfoInputs.cache
+/Users/wangxiaofeng/masstransittest/MyMasstransit/MyMasstransit.Components/obj/Debug/netstandard2.0/MyMasstransit.Components.AssemblyInfo.cs
+/Users/wangxiaofeng/masstransittest/MyMasstransit/MyMasstransit.Components/obj/Debug/netstandard2.0/MyMasstransit.Components.csproj.CopyComplete
+/Users/wangxiaofeng/masstransittest/MyMasstransit/MyMasstransit.Components/obj/Debug/netstandard2.0/MyMasstransit.Components.dll
+/Users/wangxiaofeng/masstransittest/MyMasstransit/MyMasstransit.Components/obj/Debug/netstandard2.0/MyMasstransit.Components.pdb

@@ -1,0 +1,9 @@
+/Users/wangxiaofeng/masstransittest/MyMasstransit/MyMasstransit.Contract/bin/Debug/netstandard2.0/MyMasstransit.Contract.deps.json
+/Users/wangxiaofeng/masstransittest/MyMasstransit/MyMasstransit.Contract/bin/Debug/netstandard2.0/MyMasstransit.Contract.dll
+/Users/wangxiaofeng/masstransittest/MyMasstransit/MyMasstransit.Contract/bin/Debug/netstandard2.0/MyMasstransit.Contract.pdb
+/Users/wangxiaofeng/masstransittest/MyMasstransit/MyMasstransit.Contract/obj/Debug/netstandard2.0/MyMasstransit.Contract.csprojAssemblyReference.cache
+/Users/wangxiaofeng/masstransittest/MyMasstransit/MyMasstransit.Contract/obj/Debug/netstandard2.0/MyMasstransit.Contract.csproj.CoreCompileInputs.cache
+/Users/wangxiaofeng/masstransittest/MyMasstransit/MyMasstransit.Contract/obj/Debug/netstandard2.0/MyMasstransit.Contract.AssemblyInfoInputs.cache
+/Users/wangxiaofeng/masstransittest/MyMasstransit/MyMasstransit.Contract/obj/Debug/netstandard2.0/MyMasstransit.Contract.AssemblyInfo.cs
+/Users/wangxiaofeng/masstransittest/MyMasstransit/MyMasstransit.Contract/obj/Debug/netstandard2.0/MyMasstransit.Contract.dll
+/Users/wangxiaofeng/masstransittest/MyMasstransit/MyMasstransit.Contract/obj/Debug/netstandard2.0/MyMasstransit.Contract.pdb
