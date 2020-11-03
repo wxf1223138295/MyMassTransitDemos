@@ -39,7 +39,7 @@ namespace TestMediator
                 cfg.AddBus(p =>Bus.Factory.CreateUsingRabbitMq(
                     x =>
                     {
-                        x.Host("115.159.155.126:30012", p =>
+                        x.Host("115.159.155.126",30011,"my_vhost", p =>
                         {
                             p.Username("admin");
                             p.Password("admin");
