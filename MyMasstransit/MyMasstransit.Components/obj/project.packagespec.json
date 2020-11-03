@@ -1,25 +1,23 @@
 ﻿{
   "version": "1.0.0",
   "restore": {
-    "projectUniqueName": "/Users/wangxiaofeng/masstransittest/MyGitMass/MyMassTransitDemos/MyMasstransit/MyMasstransit.Components/MyMasstransit.Components.csproj",
+    "projectUniqueName": "D:\\Data\\Project\\MyTest\\MyMassTransitDemos\\MyMasstransit\\MyMasstransit.Components\\MyMasstransit.Components.csproj",
     "projectName": "MyMasstransit.Components",
-    "projectPath": "/Users/wangxiaofeng/masstransittest/MyGitMass/MyMassTransitDemos/MyMasstransit/MyMasstransit.Components/MyMasstransit.Components.csproj",
-    "outputPath": "/Users/wangxiaofeng/masstransittest/MyGitMass/MyMassTransitDemos/MyMasstransit/MyMasstransit.Components/obj/",
+    "projectPath": "D:\\Data\\Project\\MyTest\\MyMassTransitDemos\\MyMasstransit\\MyMasstransit.Components\\MyMasstransit.Components.csproj",
+    "outputPath": "D:\\Data\\Project\\MyTest\\MyMassTransitDemos\\MyMasstransit\\MyMasstransit.Components\\obj\\",
     "projectStyle": "PackageReference",
-    "fallbackFolders": [
-      "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
-    ],
     "originalTargetFrameworks": [
       "netstandard2.0"
     ],
     "sources": {
+      "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
       "https://api.nuget.org/v3/index.json": {}
     },
     "frameworks": {
       "netstandard2.0": {
         "projectReferences": {
-          "/Users/wangxiaofeng/masstransittest/MyGitMass/MyMassTransitDemos/MyMasstransit/MyMasstransit.Contract/MyMasstransit.Contract.csproj": {
-            "projectPath": "/Users/wangxiaofeng/masstransittest/MyGitMass/MyMassTransitDemos/MyMasstransit/MyMasstransit.Contract/MyMasstransit.Contract.csproj"
+          "D:\\Data\\Project\\MyTest\\MyMassTransitDemos\\MyMasstransit\\MyMasstransit.Contract\\MyMasstransit.Contract.csproj": {
+            "projectPath": "D:\\Data\\Project\\MyTest\\MyMassTransitDemos\\MyMasstransit\\MyMasstransit.Contract\\MyMasstransit.Contract.csproj"
           }
         }
       }
@@ -54,7 +52,7 @@
       ],
       "assetTargetFallback": true,
       "warn": true,
-      "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.1.202/RuntimeIdentifierGraph.json"
+      "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.100-preview.7.20366.6\\RuntimeIdentifierGraph.json"
     }
   }
 }

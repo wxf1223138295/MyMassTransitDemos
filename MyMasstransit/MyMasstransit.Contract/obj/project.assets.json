@@ -178,28 +178,26 @@
     ]
   },
   "packageFolders": {
-    "/Users/wangxiaofeng/.nuget/packages/": {},
-    "/usr/local/share/dotnet/sdk/NuGetFallbackFolder": {}
+    "C:\\Users\\synyi\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/wangxiaofeng/masstransittest/MyGitMass/MyMassTransitDemos/MyMasstransit/MyMasstransit.Contract/MyMasstransit.Contract.csproj",
+      "projectUniqueName": "D:\\Data\\Project\\MyTest\\MyMassTransitDemos\\MyMasstransit\\MyMasstransit.Contract\\MyMasstransit.Contract.csproj",
       "projectName": "MyMasstransit.Contract",
-      "projectPath": "/Users/wangxiaofeng/masstransittest/MyGitMass/MyMassTransitDemos/MyMasstransit/MyMasstransit.Contract/MyMasstransit.Contract.csproj",
-      "packagesPath": "/Users/wangxiaofeng/.nuget/packages/",
-      "outputPath": "/Users/wangxiaofeng/masstransittest/MyGitMass/MyMassTransitDemos/MyMasstransit/MyMasstransit.Contract/obj/",
+      "projectPath": "D:\\Data\\Project\\MyTest\\MyMassTransitDemos\\MyMasstransit\\MyMasstransit.Contract\\MyMasstransit.Contract.csproj",
+      "packagesPath": "C:\\Users\\synyi\\.nuget\\packages\\",
+      "outputPath": "D:\\Data\\Project\\MyTest\\MyMassTransitDemos\\MyMasstransit\\MyMasstransit.Contract\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
-      ],
       "configFilePaths": [
-        "/Users/wangxiaofeng/.nuget/NuGet/NuGet.Config"
+        "C:\\Users\\synyi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "netstandard2.0"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -233,7 +231,7 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
-        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.1.202/RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.100-preview.7.20366.6\\RuntimeIdentifierGraph.json"
       }
     }
   }

@@ -1,6 +1,6 @@
 using System;
 
-namespace TestMediator.InterfaceModel
+namespace TestMediatorContract
 {
     public interface CreateOrder
     {

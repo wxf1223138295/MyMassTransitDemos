@@ -1,11 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "7xcg8ThlNRhIVrjG8lXfeNYgTP/VpJf2C4QwL3HuqqHi5PEFkrqLnKEY3Azobo61K80XGxZ9vv9nfN7055CSxA==",
+  "dgSpecHash": "nO4wz3vnVZenuHeQSRo39Q09SigyFZv2qs4uC5piICwTFqbqKVtLM0YTuoLg+quWOqvWi8WrBqauTKbHeURzAA==",
   "success": true,
-  "projectFilePath": "/Users/wangxiaofeng/masstransittest/MyGitMass/MyMassTransitDemos/MyMasstransit/MyMasstransit.Contract/MyMasstransit.Contract.csproj",
+  "projectFilePath": "D:\\Data\\Project\\MyTest\\MyMassTransitDemos\\MyMasstransit\\MyMasstransit.Contract\\MyMasstransit.Contract.csproj",
   "expectedPackageFiles": [
-    "/Users/wangxiaofeng/.nuget/packages/microsoft.netcore.platforms/1.1.0/microsoft.netcore.platforms.1.1.0.nupkg.sha512",
-    "/Users/wangxiaofeng/.nuget/packages/netstandard.library/2.0.3/netstandard.library.2.0.3.nupkg.sha512"
+    "C:\\Users\\synyi\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\synyi\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
   ],
   "logs": []
 }

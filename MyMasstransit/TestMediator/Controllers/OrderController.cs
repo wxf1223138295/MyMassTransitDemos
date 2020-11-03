@@ -1,8 +1,9 @@
 using System;
 using System.Threading.Tasks;
 using MassTransit;
+using MassTransit.Mediator;
 using Microsoft.AspNetCore.Mvc;
-using TestMediator.InterfaceModel;
+using TestMediatorContract;
 
 namespace TestMediator.Controllers
 {
@@ -11,10 +12,12 @@ namespace TestMediator.Controllers
     public class OrderController : ControllerBase
     {
         private readonly IRequestClient<CreateOrder> _requestClient;
+        private readonly IMediator _mediator;
 
-        public OrderController(IRequestClient<CreateOrder> requestClient)
+        public OrderController(IRequestClient<CreateOrder> requestClient, IMediator mediator)
         {
             _requestClient = requestClient;
+            _mediator = mediator;
         }
         [HttpGet]
         public async Task<IActionResult> Get(Guid id,string customernum)
@@ -26,6 +29,8 @@ namespace TestMediator.Controllers
                 TimeSpam=InVar.Timestamp
             });
 
+        
+            
             return Ok(response.Message);
         }
     }

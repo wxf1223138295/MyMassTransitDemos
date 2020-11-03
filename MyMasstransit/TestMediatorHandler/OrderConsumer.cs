@@ -1,8 +1,8 @@
 using System.Threading.Tasks;
 using MassTransit;
-using TestMediator.InterfaceModel;
+using TestMediatorContract;
 
-namespace TestMediator.Consumer
+namespace TestMediatorHandler
 {
     public class CreateOrderConsumer:IConsumer<CreateOrder>
     {

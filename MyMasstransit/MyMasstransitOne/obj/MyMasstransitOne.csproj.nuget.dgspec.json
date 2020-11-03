@@ -1,35 +1,34 @@
 {
   "format": 1,
   "restore": {
-    "/Users/wangxiaofeng/masstransittest/MyGitMass/MyMassTransitDemos/MyMasstransit/MyMasstransitOne/MyMasstransitOne.csproj": {}
+    "D:\\Data\\Project\\MyTest\\MyMassTransitDemos\\MyMasstransit\\MyMasstransitOne\\MyMasstransitOne.csproj": {}
   },
   "projects": {
-    "/Users/wangxiaofeng/masstransittest/MyGitMass/MyMassTransitDemos/MyMasstransit/MyMasstransit.Components/MyMasstransit.Components.csproj": {
+    "D:\\Data\\Project\\MyTest\\MyMassTransitDemos\\MyMasstransit\\MyMasstransit.Components\\MyMasstransit.Components.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/wangxiaofeng/masstransittest/MyGitMass/MyMassTransitDemos/MyMasstransit/MyMasstransit.Components/MyMasstransit.Components.csproj",
+        "projectUniqueName": "D:\\Data\\Project\\MyTest\\MyMassTransitDemos\\MyMasstransit\\MyMasstransit.Components\\MyMasstransit.Components.csproj",
         "projectName": "MyMasstransit.Components",
-        "projectPath": "/Users/wangxiaofeng/masstransittest/MyGitMass/MyMassTransitDemos/MyMasstransit/MyMasstransit.Components/MyMasstransit.Components.csproj",
-        "packagesPath": "/Users/wangxiaofeng/.nuget/packages/",
-        "outputPath": "/Users/wangxiaofeng/masstransittest/MyGitMass/MyMassTransitDemos/MyMasstransit/MyMasstransit.Components/obj/",
+        "projectPath": "D:\\Data\\Project\\MyTest\\MyMassTransitDemos\\MyMasstransit\\MyMasstransit.Components\\MyMasstransit.Components.csproj",
+        "packagesPath": "C:\\Users\\synyi\\.nuget\\packages\\",
+        "outputPath": "D:\\Data\\Project\\MyTest\\MyMassTransitDemos\\MyMasstransit\\MyMasstransit.Components\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
-        ],
         "configFilePaths": [
-          "/Users/wangxiaofeng/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\synyi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netstandard2.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "netstandard2.0": {
             "projectReferences": {
-              "/Users/wangxiaofeng/masstransittest/MyGitMass/MyMassTransitDemos/MyMasstransit/MyMasstransit.Contract/MyMasstransit.Contract.csproj": {
-                "projectPath": "/Users/wangxiaofeng/masstransittest/MyGitMass/MyMassTransitDemos/MyMasstransit/MyMasstransit.Contract/MyMasstransit.Contract.csproj"
+              "D:\\Data\\Project\\MyTest\\MyMassTransitDemos\\MyMasstransit\\MyMasstransit.Contract\\MyMasstransit.Contract.csproj": {
+                "projectPath": "D:\\Data\\Project\\MyTest\\MyMassTransitDemos\\MyMasstransit\\MyMasstransit.Contract\\MyMasstransit.Contract.csproj"
               }
             }
           }
@@ -64,29 +63,28 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.1.202/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.100-preview.7.20366.6\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "/Users/wangxiaofeng/masstransittest/MyGitMass/MyMassTransitDemos/MyMasstransit/MyMasstransit.Contract/MyMasstransit.Contract.csproj": {
+    "D:\\Data\\Project\\MyTest\\MyMassTransitDemos\\MyMasstransit\\MyMasstransit.Contract\\MyMasstransit.Contract.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/wangxiaofeng/masstransittest/MyGitMass/MyMassTransitDemos/MyMasstransit/MyMasstransit.Contract/MyMasstransit.Contract.csproj",
+        "projectUniqueName": "D:\\Data\\Project\\MyTest\\MyMassTransitDemos\\MyMasstransit\\MyMasstransit.Contract\\MyMasstransit.Contract.csproj",
         "projectName": "MyMasstransit.Contract",
-        "projectPath": "/Users/wangxiaofeng/masstransittest/MyGitMass/MyMassTransitDemos/MyMasstransit/MyMasstransit.Contract/MyMasstransit.Contract.csproj",
-        "packagesPath": "/Users/wangxiaofeng/.nuget/packages/",
-        "outputPath": "/Users/wangxiaofeng/masstransittest/MyGitMass/MyMassTransitDemos/MyMasstransit/MyMasstransit.Contract/obj/",
+        "projectPath": "D:\\Data\\Project\\MyTest\\MyMassTransitDemos\\MyMasstransit\\MyMasstransit.Contract\\MyMasstransit.Contract.csproj",
+        "packagesPath": "C:\\Users\\synyi\\.nuget\\packages\\",
+        "outputPath": "D:\\Data\\Project\\MyTest\\MyMassTransitDemos\\MyMasstransit\\MyMasstransit.Contract\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
-        ],
         "configFilePaths": [
-          "/Users/wangxiaofeng/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\synyi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netstandard2.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -120,39 +118,38 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.1.202/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.100-preview.7.20366.6\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "/Users/wangxiaofeng/masstransittest/MyGitMass/MyMassTransitDemos/MyMasstransit/MyMasstransitOne/MyMasstransitOne.csproj": {
+    "D:\\Data\\Project\\MyTest\\MyMassTransitDemos\\MyMasstransit\\MyMasstransitOne\\MyMasstransitOne.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/wangxiaofeng/masstransittest/MyGitMass/MyMassTransitDemos/MyMasstransit/MyMasstransitOne/MyMasstransitOne.csproj",
+        "projectUniqueName": "D:\\Data\\Project\\MyTest\\MyMassTransitDemos\\MyMasstransit\\MyMasstransitOne\\MyMasstransitOne.csproj",
         "projectName": "MyMasstransitOne",
-        "projectPath": "/Users/wangxiaofeng/masstransittest/MyGitMass/MyMassTransitDemos/MyMasstransit/MyMasstransitOne/MyMasstransitOne.csproj",
-        "packagesPath": "/Users/wangxiaofeng/.nuget/packages/",
-        "outputPath": "/Users/wangxiaofeng/masstransittest/MyGitMass/MyMassTransitDemos/MyMasstransit/MyMasstransitOne/obj/",
+        "projectPath": "D:\\Data\\Project\\MyTest\\MyMassTransitDemos\\MyMasstransit\\MyMasstransitOne\\MyMasstransitOne.csproj",
+        "packagesPath": "C:\\Users\\synyi\\.nuget\\packages\\",
+        "outputPath": "D:\\Data\\Project\\MyTest\\MyMassTransitDemos\\MyMasstransit\\MyMasstransitOne\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
-        ],
         "configFilePaths": [
-          "/Users/wangxiaofeng/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\synyi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "/Users/wangxiaofeng/masstransittest/MyGitMass/MyMassTransitDemos/MyMasstransit/MyMasstransit.Components/MyMasstransit.Components.csproj": {
-                "projectPath": "/Users/wangxiaofeng/masstransittest/MyGitMass/MyMassTransitDemos/MyMasstransit/MyMasstransit.Components/MyMasstransit.Components.csproj"
+              "D:\\Data\\Project\\MyTest\\MyMassTransitDemos\\MyMasstransit\\MyMasstransit.Components\\MyMasstransit.Components.csproj": {
+                "projectPath": "D:\\Data\\Project\\MyTest\\MyMassTransitDemos\\MyMasstransit\\MyMasstransit.Components\\MyMasstransit.Components.csproj"
               },
-              "/Users/wangxiaofeng/masstransittest/MyGitMass/MyMassTransitDemos/MyMasstransit/MyMasstransit.Contract/MyMasstransit.Contract.csproj": {
-                "projectPath": "/Users/wangxiaofeng/masstransittest/MyGitMass/MyMassTransitDemos/MyMasstransit/MyMasstransit.Contract/MyMasstransit.Contract.csproj"
+              "D:\\Data\\Project\\MyTest\\MyMassTransitDemos\\MyMasstransit\\MyMasstransit.Contract\\MyMasstransit.Contract.csproj": {
+                "projectPath": "D:\\Data\\Project\\MyTest\\MyMassTransitDemos\\MyMasstransit\\MyMasstransit.Contract\\MyMasstransit.Contract.csproj"
               }
             }
           }
@@ -197,6 +194,16 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[3.1.2, 3.1.2]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Host.win-x64",
+              "version": "[3.1.2, 3.1.2]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.AspNetCore.App": {
               "privateAssets": "none"
@@ -205,7 +212,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.1.202/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.100-preview.7.20366.6\\RuntimeIdentifierGraph.json"
         }
       }
     }
