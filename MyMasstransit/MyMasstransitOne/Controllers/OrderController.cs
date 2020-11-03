@@ -30,7 +30,7 @@ namespace MyMasstransitOne.Controllers
         [HttpGet]
         public async Task<string> Get(Guid id,string num)
         {
-           
+          
 
             await _requestClient.GetResponse<OrderSubmissionAccepted>(new SubmitOrder
             {

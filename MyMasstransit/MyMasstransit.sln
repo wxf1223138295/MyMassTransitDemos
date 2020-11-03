@@ -10,6 +10,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyMasstransit.Contract", "M
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyMasstransit.Components", "MyMasstransit.Components\MyMasstransit.Components.csproj", "{FFDA71EE-E8BE-4E1B-8F19-31E5ECF8E279}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Two", "Two", "{5F047D59-4A80-42E5-8DE8-CF1C351B111A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "MediatorDemo", "MediatorDemo", "{52BE3687-8B3B-49D2-9C36-B08A9C01364E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU

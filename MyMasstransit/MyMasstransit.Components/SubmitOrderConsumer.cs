@@ -9,6 +9,7 @@ namespace MyMasstransit.Components
     {
         public async Task Consume(ConsumeContext<SubmitOrder> context)
         {
+            
             await context.RespondAsync<OrderSubmissionAccepted>(new OrderSubmissionAccepted
             {
                 
