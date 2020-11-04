@@ -12,12 +12,11 @@ namespace TestMediator.Controllers
     public class OrderController : ControllerBase
     {
         private readonly IRequestClient<CreateOrder> _requestClient;
-        private readonly IMediator _mediator;
 
-        public OrderController(IRequestClient<CreateOrder> requestClient, IMediator mediator)
+
+        public OrderController(IRequestClient<CreateOrder> requestClient)
         {
             _requestClient = requestClient;
-            _mediator = mediator;
         }
         [HttpGet]
         public async Task<IActionResult> Get(Guid id,string customernum)
