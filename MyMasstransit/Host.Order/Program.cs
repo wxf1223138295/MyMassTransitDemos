@@ -19,22 +19,21 @@ namespace Host.Order
  
             hosr.ConfigureServices((context, services) =>
                 {
-                    services.TryAddSingleton(KebabCaseEndpointNameFormatter.Instance);
+                    //services.TryAddSingleton(KebabCaseEndpointNameFormatter.Instance);
                     services.AddMassTransit(cfg =>
                     {
-       
-                        cfg.AddConsumersFromNamespaceContaining<CreateOrderConsumer>();
-                        cfg.AddBus(p => Bus.Factory.CreateUsingRabbitMq(
-                            x =>
+                        cfg.AddConsumer<CreateOrderConsumer>();
+                        cfg.UsingRabbitMq((context,config) =>
+                        {
+                            config.Host("115.159.155.126",30011,"my_vhost", rabbithost =>
                             {
-                                x.Host("115.159.155.126:30012", p =>
-                                {
-                                    p.Username("admin");
-                                    p.Password("admin");
-                                });
-
-
-                            }));
+                                rabbithost.Username("admin");
+                                rabbithost.Password("admin");
+                            });
+                            
+                            config.ConfigureEndpoints(context);
+                        });
+                     
                     });
 
                     services.AddHostedService<MassTransitConsoleHostedService>();

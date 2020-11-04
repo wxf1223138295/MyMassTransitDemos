@@ -32,24 +32,37 @@ namespace TestMediator
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddControllers();
-
-            services.TryAddSingleton(KebabCaseEndpointNameFormatter.Instance);
+            
             services.AddMassTransit(cfg =>
             {
-                cfg.AddBus(p =>Bus.Factory.CreateUsingRabbitMq(
-                    x =>
+                cfg.UsingRabbitMq((context,config) =>
+                {
+                    config.Host("115.159.155.126",30011,"my_vhost", rabbithost =>
                     {
-                        x.Host("115.159.155.126",30011,"my_vhost", p =>
-                        {
-                            p.Username("admin");
-                            p.Password("admin");
-                        });
-                        
-                        
-                    }
-                ));
-             
+                        rabbithost.Username("admin");
+                        rabbithost.Password("admin");
+                    });
+                    
+                  // config.ConfigureEndpoints(context);
+                });
+                
                 cfg.AddRequestClient<CreateOrder>();
+                
+                // cfg.AddBus(p =>Bus.Factory.CreateUsingRabbitMq(
+                //     x =>
+                //     {
+                //         x.Host("115.159.155.126",30011,"my_vhost", p =>
+                //         {
+                //             p.Username("admin");
+                //             p.Password("admin");
+                //         });
+                //         
+                //         x.ConfigureEndpoints(p);
+                //     }
+                //     
+                // ));
+             
+              
             });
 
             services.AddMassTransitHostedService();

@@ -21,15 +21,14 @@ namespace TestMediator.Controllers
         [HttpGet]
         public async Task<IActionResult> Get(Guid id,string customernum)
         {
-            var response= await _requestClient.GetResponse<OrderSubmissionAccecpt>(values: new
+            id=Guid.NewGuid();
+            customernum = new Random(2).Next().ToString();
+            var response= await _requestClient.GetResponse<OrderSubmissionAccecpt>(values: new CreateOrder
             {
                 OrderId=id,
                 CustomorNum=customernum,
                 TimeSpam=InVar.Timestamp
             });
-
-        
-            
             return Ok(response.Message);
         }
     }

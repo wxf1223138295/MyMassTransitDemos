@@ -2,17 +2,17 @@ using System;
 
 namespace TestMediatorContract
 {
-    public interface CreateOrder
+    public class CreateOrder
     {
-        Guid OrderId { get; }
-        DateTime TimeSpam { get;  }
-        string CustomorNum { get; }
+        public Guid OrderId { get; set; }
+        public DateTime TimeSpam { get; set; }
+        public string CustomorNum { get; set; }
     }
 
-    public interface OrderSubmissionAccecpt
+    public class OrderSubmissionAccecpt
     {
-        Guid OrderId { get; }
-        DateTime TimeSpam { get;  }
-        string CustomorNum { get; }
+        public Guid OrderId { get; set; }
+        public DateTime TimeSpam { get; set; }
+        public string CustomorNum { get; set; }
     }
 }
