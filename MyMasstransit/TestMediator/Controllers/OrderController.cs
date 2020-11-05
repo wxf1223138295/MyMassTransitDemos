@@ -2,6 +2,7 @@ using System;
 using System.Threading.Tasks;
 using MassTransit;
 using MassTransit.Mediator;
+using MassTransit.RabbitMqTransport.Integration;
 using Microsoft.AspNetCore.Mvc;
 using TestMediatorContract;
 
@@ -12,7 +13,6 @@ namespace TestMediator.Controllers
     public class OrderController : ControllerBase
     {
         private readonly IRequestClient<CreateOrder> _requestClient;
-
 
         public OrderController(IRequestClient<CreateOrder> requestClient)
         {
@@ -29,6 +29,8 @@ namespace TestMediator.Controllers
                 CustomorNum=customernum,
                 TimeSpam=InVar.Timestamp
             });
+            
+            
             return Ok(response.Message);
         }
     }

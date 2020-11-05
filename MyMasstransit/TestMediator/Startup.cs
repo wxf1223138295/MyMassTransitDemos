@@ -48,6 +48,8 @@ namespace TestMediator
                 
                 cfg.AddRequestClient<CreateOrder>();
                 
+                
+                
                 // cfg.AddBus(p =>Bus.Factory.CreateUsingRabbitMq(
                 //     x =>
                 //     {

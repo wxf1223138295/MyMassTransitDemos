@@ -22,6 +22,7 @@ namespace Host.Order
                     //services.TryAddSingleton(KebabCaseEndpointNameFormatter.Instance);
                     services.AddMassTransit(cfg =>
                     {
+                        cfg.SetKebabCaseEndpointNameFormatter();
                         cfg.AddConsumer<CreateOrderConsumer>();
                         cfg.UsingRabbitMq((context,config) =>
                         {
@@ -31,7 +32,11 @@ namespace Host.Order
                                 rabbithost.Password("admin");
                             });
                             
-                            config.ConfigureEndpoints(context);
+                           // config.ReceiveEndpoint("order-create",o =>
+                           // {
+                           //     o.Consumer(()=>new CreateOrderConsumer());
+                           // });
+                           config.ConfigureEndpoints(context);
                         });
                      
                     });
@@ -45,6 +50,7 @@ namespace Host.Order
                 .ConfigureLogging((context, logging) =>
                 {
                     logging.AddConsole();
+                    logging.SetMinimumLevel(LogLevel.Debug);
                 });
 
 
