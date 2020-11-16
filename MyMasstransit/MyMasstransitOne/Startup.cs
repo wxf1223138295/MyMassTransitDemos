@@ -44,6 +44,7 @@ namespace MyMasstransitOne
                     }
                     ));
                 p.AddConsumer<SubmitOrderConsumer>();
+                
                 p.AddRequestClient<SubmitOrder>();
                 
             });

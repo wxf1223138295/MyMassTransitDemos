@@ -5,11 +5,15 @@
     </PropertyGroup>
 
     <ItemGroup>
-      <PackageReference Include="MassTransit" Version="7.0.5-develop.2964" />
+      <ProjectReference Include="..\MyMasstransit.Contract\MyMasstransit.Contract.csproj" />
     </ItemGroup>
 
     <ItemGroup>
-      <ProjectReference Include="..\MyMasstransit.Contract\MyMasstransit.Contract.csproj" />
+      <PackageReference Include="MassTransit" Version="7.0.6" />
+      <PackageReference Include="MassTransit.AspNetCore" Version="7.0.6" />
+      <PackageReference Include="MassTransit.Extensions.DependencyInjection" Version="7.0.6" />
+      <PackageReference Include="MassTransit.MongoDb" Version="7.0.6" />
+      <PackageReference Include="MassTransit.RabbitMQ" Version="7.0.6" />
     </ItemGroup>
 
 </Project>

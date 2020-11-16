@@ -16,7 +16,6 @@ namespace MyMasstransitOne.Controllers
     {
         private readonly IRequestClient<SubmitOrder> _requestClient;
         private readonly ILogger<OrderController> _logger;
-
         public OrderController(IRequestClient<SubmitOrder> requestClient, ILogger<OrderController> logger)
         {
             _requestClient = requestClient;
@@ -30,7 +29,7 @@ namespace MyMasstransitOne.Controllers
         [HttpGet]
         public async Task<string> Get(Guid id,string num)
         {
-          
+            
 
             await _requestClient.GetResponse<OrderSubmissionAccepted>(new SubmitOrder
             {
